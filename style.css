@@ -1,0 +1,42 @@
+h1 {
+    color: rgb(53, 51, 51);
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: rgb(240, 226, 73);
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    background-color:rgb(53, 51, 51);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    background-color:rgb(53, 51, 51);
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color:rgb(53, 51, 51);
+}
+
